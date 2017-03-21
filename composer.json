@@ -1,0 +1,22 @@
+{
+    "name": "seiweb/yii2-unitegallery",
+    "description": "unitegallery widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "unitegallery"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "seiweb"
+        }
+    ],
+    "require": {
+	"php": ">=5.4.0",
+	"yiisoft/yii2": "*",
+        "bower-asset/unitegallery": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "seiweb\\unitegallery\\": ""
+        }
+    }
+}
